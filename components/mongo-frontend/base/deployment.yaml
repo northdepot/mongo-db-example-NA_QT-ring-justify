@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: mongo-frontend
     spec:
       containers:
-      - image: quay.io/jduimovich0/mongo-db-example
+      - image: quay.io/jduimovich0/mongo-db-example@sha256:36fa833057e00920661e2da5b9d98200bf3ca6f60ceb7ffb3aa5eab18f1a21d4
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
